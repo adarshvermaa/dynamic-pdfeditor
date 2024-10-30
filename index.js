@@ -45,7 +45,7 @@ app.post('/generate-pdf', async (req, res) => {
         }
     );
     const page = await browser.newPage();
-    await page.goto(PathExcutive, { waitUntil: 'networkidle2' });
+    await page.goto(`file://${PathExcutive}`, { waitUntil: 'networkidle2' });
 
     const pdfDir = path.join(__dirname, 'saved-pdfs');
     if (!fs.existsSync(pdfDir)) {
