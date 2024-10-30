@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1286 909" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.g0{fill:#FFF;}
+.g1{fill:none;stroke:#0E8CC3;stroke-width:30.555;stroke-linejoin:round;}
+</style>
+</defs>
+<path d="M0 0H1286.2V909.5H0V0Z" class="g0"/>
+<path d="M27.5 27.5H1258.7V882H27.5V27.5Z" class="g1"/>
+<image preserveAspectRatio="none" x="565" y="53" width="153" height="153" href="img/1.jpg"/>
+<image preserveAspectRatio="none" x="550" y="657" width="183" height="186" href="img/2.png"/>
+</svg>
