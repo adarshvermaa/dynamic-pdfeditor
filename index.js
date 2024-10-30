@@ -62,7 +62,7 @@ app.post('/generate-pdf', async (req, res) => {
     });
 
     await browser.close();
-    const fullUrl = `${req.protocol}://${req.get('host')}/get-pdf/${body.RajeshYadav.replace(/ /g, '_')}`;
+    const fullUrl = `${req.protocol}s://${req.get('host')}/get-pdf/${body.RajeshYadav.replace(/ /g, '_')}`;
     res.send({ message: 'PDF generated successfully', path: pdfPath, pdfLink: fullUrl });
 });
 
